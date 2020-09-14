@@ -18,3 +18,6 @@ In this project we will cover the basics of `Structure Query Language (SQL)`, `R
 - ./api/server.js
 - ./data/db-config.js
 - ./posts/post-router.js
+
+Introduce Query Builders
+Introduce Knex
