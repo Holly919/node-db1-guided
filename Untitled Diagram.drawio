@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-09-16T01:24:57.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="UgpIafW0k50yki5dUObK" version="13.6.6" type="github" pages="4">
-  <diagram id="535jIaAnYmbFfIY-fmwr" name="Page-3">
+<mxfile host="app.diagrams.net" modified="2020-09-16T01:27:39.800Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ZtQW_DkV9k3oYg5bouvr" version="13.6.6" type="github" pages="4">
+  <diagram id="535jIaAnYmbFfIY-fmwr" name="Client/Server DB">
     <mxGraphModel dx="1426" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="bosU0lAAXiq1cYPxXi9d-0" />
@@ -68,10 +68,13 @@
         <mxCell id="bosU0lAAXiq1cYPxXi9d-15" value="Disk drive (stack of disks)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#0000FF;" vertex="1" parent="bosU0lAAXiq1cYPxXi9d-1">
           <mxGeometry x="660" y="220" width="90" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="Mg0Tv42Y7-0YUnyx9uJ5-0" value="Client/Server DB" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;fontSize=20;fontColor=#0000FF;strokeColor=#2617FF;" vertex="1" parent="bosU0lAAXiq1cYPxXi9d-1">
+          <mxGeometry x="233" y="40" width="385" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="File-based DB">
     <mxGraphModel dx="1426" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -121,10 +124,13 @@
         <mxCell id="7XNnbv8hsG_1OXoC5hqW-12" value="[posts]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#0000FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="760" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="RgpZk7JZQ5d2M3glFQTo-0" value="File-based DB" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;fontSize=20;fontColor=#0000FF;strokeColor=#2617FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="233" y="40" width="385" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Rt2idcS5UanygktmBUxr" name="Page-2">
+  <diagram id="Rt2idcS5UanygktmBUxr" name="File-based DB with Raw SQL">
     <mxGraphModel dx="1426" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="48dqMW29AaX_sZPMYH46-0" />
@@ -150,10 +156,13 @@
         <mxCell id="M9dh-8qWz-MCQfVXo83x-2" value="DB Driver" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="48dqMW29AaX_sZPMYH46-1">
           <mxGeometry x="458" y="450" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="H-8tZZU-TxMJIMdXUNRk-0" value="File-Based DB With Raw SQL" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;fontSize=20;fontColor=#0000FF;strokeColor=#2617FF;" vertex="1" parent="48dqMW29AaX_sZPMYH46-1">
+          <mxGeometry x="233" y="40" width="385" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="jBQavaD3uOYNNbAxD5As" name="Page-4">
+  <diagram id="jBQavaD3uOYNNbAxD5As" name="File-based DB with SQL Query Builder">
     <mxGraphModel dx="1426" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="hrmVagEC84Tlhv_8ULsw-0" />
@@ -184,6 +193,9 @@
         </mxCell>
         <mxCell id="HOP1BrM0tDb1RVY99nl5-8" value="SQL Query Builder &lt;br&gt;(like Knex)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="hrmVagEC84Tlhv_8ULsw-1">
           <mxGeometry x="420" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EoEq0Ha16m55ZjsziiEe-0" value="File-Based DB With SQL Query Builder" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;fontSize=20;fontColor=#0000FF;strokeColor=#2617FF;" vertex="1" parent="hrmVagEC84Tlhv_8ULsw-1">
+          <mxGeometry x="233" y="40" width="385" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
